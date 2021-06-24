@@ -7,7 +7,7 @@ fetch('https://5d76bf96515d1a0014085cf9.mockapi.io/product')
         let item = document.createElement("div");
         item.className = "item";
         let itemLink = document.createElement("a");
-        itemLink.href = `/product/details.html?p=${product.id}`;
+        itemLink.href = `https://kashish-ally.github.io/js-final/product/details.html?p=${product.id}`;
         let itemImage = document.createElement("div");
         itemImage.className = "item-image";
         let image = document.createElement("img");
